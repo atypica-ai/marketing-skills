@@ -16,7 +16,7 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | Skill | Description |
 |-------|-------------|
 | [market-sizing](skills/market-sizing/) | Produce a rigorous, sourced TAM/SAM/SOM market sizing for any product or business. Use whenever a user asks about market size, total addressable market, SAM, SOM, or market opportunity — across any industry including SaaS, AI tools, consumer brands, F&B, fashion, beauty, and more. |
-| [product-rnd-report-gen](skills/product-rnd-report-gen/) | Generate professional Product Innovation Research & Development reports as polished HTML. Conducts research, applies consulting-grade analysis frameworks, and produces shareable reports for senior decision-makers. |
+| [product-rnd](skills/product-rnd/) | Generate professional Product Innovation Research & Development reports as polished HTML. Conducts research, applies consulting-grade analysis frameworks, and produces shareable reports for senior decision-makers. |
 | [html-to-pdf](skills/html-to-pdf/) | Convert any HTML file to a faithful PDF, preserving CSS layout, Tailwind styles, colors, and fonts. Use to export or share an HTML report as PDF. |
 <!-- SKILLS:END -->
 
