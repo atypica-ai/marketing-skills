@@ -18,6 +18,8 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | [market-sizing](skills/market-sizing/) | Produce a rigorous, sourced TAM/SAM/SOM market sizing for any product or business. Use whenever a user asks about market size, total addressable market, SAM, SOM, or market opportunity — across any industry including SaaS, AI tools, consumer brands, F&B, fashion, beauty, and more. |
 | [product-rnd](skills/product-rnd/) | Generate professional Product Innovation Research & Development reports as polished HTML. Conducts research, applies consulting-grade analysis frameworks, and produces shareable reports for senior decision-makers. |
 | [html-to-pdf](skills/html-to-pdf/) | Convert any HTML file to a faithful PDF, preserving CSS layout, Tailwind styles, colors, and fonts. Use to export or share an HTML report as PDF. |
+| [plan-as-consultant](skills/plan-as-consultant/) | Plan a business research study the way a professional consultant would — selecting the right analytical framework (JTBD, KANO, STP, GE-McKinsey, etc.), designing the research method, and defining a specific actionable output. Use this skill when someone has a business question to research: product decisions, user understanding, market analysis, pricing strategy, brand positioning, feature prioritization, or competitive strategy. |
+| [atypica-user-interview](skills/atypica-user-interview/) | Run AI-simulated user interviews and focus group discussions using atypica.ai's library of human-like personas. Use whenever you need user research, product feedback, UX testing, or want to understand what different types of real people think — without recruiting actual participants. |
 <!-- SKILLS:END -->
 
 ## Installation
@@ -77,21 +79,25 @@ Once installed, just ask your agent to help with research and marketing tasks:
 → Uses market-sizing skill with b2b-saas example
 
 "Generate a product innovation report for this new snack concept"
-→ Uses product-rnd-report-gen skill
+→ Uses product-rnd skill
 
 "Create an investor-ready market analysis for our pitch deck"
-→ Uses market-sizing + product-rnd-report-gen skills together
+→ Uses market-sizing + product-rnd skills together
 
 "Export this HTML report as a PDF"
 → Uses html-to-pdf skill
+
+"Interview 5 users about their morning routine and spending habits"
+→ Uses atypica-user-interview skill
 ```
 
 You can also invoke skills directly:
 
 ```
 /market-sizing
-/product-rnd-report-gen
+/product-rnd
 /html-to-pdf
+/atypica-user-interview
 ```
 
 ## License
