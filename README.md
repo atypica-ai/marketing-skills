@@ -20,6 +20,7 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | [html-to-pdf](skills/html-to-pdf/) | Convert any HTML file to a faithful PDF, preserving CSS layout, Tailwind styles, colors, and fonts. Use to export or share an HTML report as PDF. |
 | [plan-as-consultant](skills/plan-as-consultant/) | Plan a business research study the way a professional consultant would — selecting the right analytical framework (JTBD, KANO, STP, GE-McKinsey, etc.), designing the research method, and defining a specific actionable output. Use this skill when someone has a business question to research: product decisions, user understanding, market analysis, pricing strategy, brand positioning, feature prioritization, or competitive strategy. |
 | [atypica-user-interview](skills/atypica-user-interview/) | Run AI-simulated user interviews and focus group discussions using atypica.ai's library of human-like personas. Use whenever you need user research, product feedback, UX testing, or want to understand what different types of real people think — without recruiting actual participants. |
+| [logo-design](skills/logo-design/) | Design professional logos as SVG code with browser preview. 9-phase workflow: discovery, market research, letterform analysis, design direction, color strategy, typography, SVG implementation, delivery (3 concepts), and iterative refinement. |
 <!-- SKILLS:END -->
 
 ## Installation
@@ -89,6 +90,12 @@ Once installed, just ask your agent to help with research and marketing tasks:
 
 "Interview 5 users about their morning routine and spending habits"
 → Uses atypica-user-interview skill
+
+"Design a logo for my fintech startup called NexaFlow"
+→ Uses logo-design skill
+
+"Create a brand mark for a coffee shop called Brew & Co"
+→ Uses logo-design skill
 ```
 
 You can also invoke skills directly:
@@ -98,6 +105,7 @@ You can also invoke skills directly:
 /product-rnd
 /html-to-pdf
 /atypica-user-interview
+/logo-design
 ```
 
 ## License
